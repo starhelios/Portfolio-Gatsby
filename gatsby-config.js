@@ -7,6 +7,7 @@ module.exports = {
     author: `Jackson Noda`,
     siteUrl: `https://jackson-noda.com`,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
