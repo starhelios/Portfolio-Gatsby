@@ -1,0 +1,43 @@
+.layout {
+  @apply grid grid-cols-1 gap-y-16;
+}
+
+.layout .work-education {
+  @apply grid grid-cols-1 gap-y-16;
+}
+
+.layout .achievements-certification-philanthropy {
+  @apply grid grid-cols-1 gap-y-12;
+}
+
+.layout .achievements-certification-philanthropy > div {
+  @apply col-span-1;
+}
+
+@screen md {
+  .layout {
+    @apply gap-y-24;
+  }
+
+  .layout .work-education {
+    @apply grid-cols-2 gap-y-0;
+  }
+
+  .layout .achievements-certification-philanthropy {
+    @apply grid-cols-2;
+  }
+
+  .layout .achievements-certification-philanthropy > div:nth-child(3) {
+    @apply col-span-2;
+  }
+}
+
+@screen xl {
+  .layout .achievements-certification-philanthropy {
+    @apply grid-cols-3 gap-0;
+  }
+
+  .layout .achievements-certification-philanthropy > div:nth-child(n) {
+    @apply col-span-1;
+  }
+}

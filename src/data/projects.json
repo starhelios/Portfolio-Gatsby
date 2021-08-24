@@ -1,0 +1,58 @@
+[
+  {
+    "image": "../images/projects/icotop.png",
+    "title": "ICOTOP | ICOTOP Rating Agency",
+    "description": "ICOTOP is an independent agency employing a team of blockchain experts specializing in making the rating for ICO projects.",
+    "tags": ["webdev", "fullstack", "react", "web3", "node", "docker"],
+    "website": "https://icotop.io/"
+  },
+  {
+    "image": "../images/projects/fanhero.png",
+    "title": "FANHERO",
+    "description": "FanHero is the developer of an all-in-one social-OTT platform that enables content creators including media companies, rightsholders, sports businesses, and other organizations to effectively distribute and monetize their content.",
+    "tags": ["react", "webdev", "materialui", "typescript", "jest", "enzyme"],
+    "website": "https://fanhero.com/"
+  },
+  {
+    "image": "../images/projects/openarc.png",
+    "title": "OpenArc, LLC.",
+    "description": "OpenArc is a technology consulting firm providing industry-leading technical talent placement, software development, and technology strategy services to clients nationwide.",
+    "tags": ["flutter", "firebase", "reactnative", "swift", "objectivec", "java", "kotlin"],
+    "website": "https://www.openarc.net/"
+  },
+  {
+    "image": "../images/projects/101-management.png",
+    "title": "101 Management Inc.",
+    "description": "Internet Marketing, Social Media Management, Search Engine Optimization Services, Website Design & Development.",
+    "tags": ["webdev", "social", "mern", "mocha", "chai"],
+    "website": "https://101management.net/"
+  },
+  {
+    "image": "../images/projects/festfoods.png",
+    "title": "Festival Foods",
+    "description": "Every business decision we make is based on the question, “Will it bring the customer back?",
+    "tags": ["vue", "vuefity", "tailwindcss", "nuxt"],
+    "website": "https://www.festfoods.com"
+  },
+  {
+    "image": "../images/projects/sv-academy.png",
+    "title": "SVAcademy",
+    "description": "Our training and support will fast-track you into a customer-facing career in tech with one of our 400+ employer partners.",
+    "tags": ["react", "next", "typescript", "node", "express", "graphql", "vercel"],
+    "website": "https://sv.academy/apply"
+  },
+  {
+    "image": "../images/projects/satoshi.png",
+    "title": "NFT Art Trading",
+    "description": "All the NFT in the world, now together. Here for you.",
+    "tags": ["react", "typescript", "materialui", "nft", "ruby", "postgresql", "docker"],
+    "website": "https://www.satoshi.art"
+  },
+  {
+    "image": "../images/projects/ewellness.png",
+    "title": "Magazine Wellness",
+    "description": "Wellness NEWs",
+    "tags": ["haml", "ruby", "jquery", "wellness", "rails", "postgresql", "nginx"],
+    "website": "https://www.ewellnessmag.com"
+  }
+]

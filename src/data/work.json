@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "../images/work/icotop.png",
+    "title": "ICOTOP",
+    "subtitle": "Full Stack Engineer",
+    "period": "Jun 2019 - Mar 2021",
+    "location": "Florida, US (Remote)",
+    "specialization": "React, Typescript, Web3, Node, Express, Docker, AWS"
+  },
+  {
+    "icon": "../images/work/fanhero.png",
+    "title": "FanHero",
+    "subtitle": "Front End Developer",
+    "period": "Feb 2018 - Apr 2019",
+    "location": "Florida, US (Remote)",
+    "specialization": "React, Material UI, Typescript, Jest, Enzyme, Cypress, Agile Product Development"
+  },
+  {
+    "icon": "../images/work/openarc.png",
+    "title": "OpenArc, LLC.",
+    "subtitle": "Mobile Application Developer",
+    "period": "Nov 2016 - Jan 2018",
+    "location": "Florida, US (Remote)",
+    "specialization": "React Native, Flutter, Swift, Objective-C, Java, Kotlin"
+  },
+  {
+    "icon": "../images/work/101management.png",
+    "title": "101 Management Inc.",
+    "subtitle": "Full Stack Lead Developer",
+    "period": "Jun 2015 - Oct 2016",
+    "location": "Florida, US (Remote)",
+    "specialization": "MERN Stack, Mocha, Chai"
+  },
+  {
+    "icon": "../images/work/sunshine.png",
+    "title": "Sunshine Homes LLC.",
+    "subtitle": "General Contractor",
+    "period": "Sep 2013 - Jun 2015",
+    "location": "Florida, US (Remote)",
+    "specialization": "Ruby, Rails, PostgreSQL, RSpec, Docker, Heroku"
+  }
+]

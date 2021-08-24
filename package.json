@@ -1,0 +1,82 @@
+{
+  "name": "portfolio-gatsby",
+  "description": "Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my portfolio!",
+  "version": "1.0.0",
+  "author": "Jackson Noda",
+  "dependencies": {
+    "@formspark/use-formspark": "^0.1.32",
+    "@material-ui/core": "^4.11.4",
+    "@sendgrid/mail": "^7.4.4",
+    "dotenv": "^10.0.0",
+    "gatsby": "^3.7.0",
+    "gatsby-codemods": "^2.7.0",
+    "gatsby-image": "^3.7.0",
+    "gatsby-plugin-canonical-urls": "^3.7.0",
+    "gatsby-plugin-google-analytics": "^3.7.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^1.7.0",
+    "gatsby-plugin-manifest": "3.7.0",
+    "gatsby-plugin-offline": "4.7.0",
+    "gatsby-plugin-postcss": "^4.7.0",
+    "gatsby-plugin-react-helmet": "4.7.0",
+    "gatsby-plugin-robots-txt": "^1.6.2",
+    "gatsby-plugin-sharp": "^3.7.0",
+    "gatsby-plugin-sitemap": "^4.3.0",
+    "gatsby-source-dev": "^0.1.4",
+    "gatsby-source-dribbble": "^2.1.4",
+    "gatsby-source-filesystem": "^3.7.0",
+    "gatsby-source-instagram-all": "^4.2.0",
+    "gatsby-transformer-json": "^3.7.0",
+    "gatsby-transformer-remark": "^4.4.0",
+    "gatsby-transformer-sharp": "^3.7.0",
+    "parallax-js": "^3.1.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-helmet": "6.1.0",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.2",
+    "react-typist": "^2.0.5",
+    "three": "^0.129.0",
+    "wowjs": "^1.1.3"
+  },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
+    "fix": "npm run fix:lint && npm run fix:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "npm run develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.28.0",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-react": "7.24.0",
+    "gatsby-plugin-eslint": "3.0.0",
+    "prettier": "2.3.1",
+    "tailwindcss": "2.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starhelios/Portfolio-Gatsby"
+  },
+  "bugs": {
+    "url": "https://github.com/starhelios/Portfolio-Gatsby/issues"
+  }
+}
