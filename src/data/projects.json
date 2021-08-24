@@ -30,8 +30,8 @@
   {
     "image": "../images/projects/festfoods.png",
     "title": "Festival Foods",
-    "description": "Every business decision we make is based on the question, “Will it bring the customer back?",
-    "tags": ["vue", "vuefity", "tailwindcss", "nuxt"],
+    "description": "Every business decision we make is based on the question, “Will it bring the customer back?“",
+    "tags": ["vue", "vuefity", "vuex", "nuxt"],
     "website": "https://www.festfoods.com"
   },
   {
@@ -50,7 +50,7 @@
   },
   {
     "image": "../images/projects/ewellness.png",
-    "title": "Magazine Wellness",
+    "title": "Magazine For Wellness",
     "description": "Wellness NEWs",
     "tags": ["haml", "ruby", "jquery", "wellness", "rails", "postgresql", "nginx"],
     "website": "https://www.ewellnessmag.com"

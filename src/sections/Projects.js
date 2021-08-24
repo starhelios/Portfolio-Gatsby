@@ -38,7 +38,7 @@ const Projects = () => {
             key={node.id}
             className={`${styles.project} wow fadeIn`}
             style={{
-              animationDelay: `${index * 300 + 300}ms`,
+              animationDelay: `${index * 150 + 150}ms`,
             }}
           >
             <OutboundLink

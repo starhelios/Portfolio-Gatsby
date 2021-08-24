@@ -7,7 +7,7 @@ import React, { useRef, useState, useEffect } from "react";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
 
-import Face1 from "../images/photographs/one.jpg";
+import Face1 from "../images/photographs/one.png";
 import Face2 from "../images/photographs/two.png";
 import Face3 from "../images/photographs/three.png";
 import Face4 from "../images/photographs/four.png";

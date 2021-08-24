@@ -16,7 +16,7 @@ const Skills = () => {
             tech
             icon {
               childImageSharp {
-                gatsbyImageData(width: 20, height: 20, layout: FIXED)
+                gatsbyImageData(width: 35, height: 35, layout: FIXED)
               }
             }
           }
@@ -34,7 +34,7 @@ const Skills = () => {
             key={node.id}
             className={`${styles.skill} md:mr-5 wow fadeIn`}
             style={{
-              animationDelay: `${index * 150 + 150}ms`,
+              animationDelay: `${index * 100 + 100}ms`,
             }}
           >
             <div className="flex items-center">
