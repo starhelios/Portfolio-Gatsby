@@ -2,25 +2,25 @@ const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
-    title: `Jackson Noda`,
+    title: `Jackson Noah`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my portfolio!`,
-    author: `Jackson Noda`,
-    siteUrl: `https://jackson-noda.com`,
+    author: `Jackson Noah`,
+    siteUrl: `https://jackson-noah.com`,
   },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://jackson-noda.com`,
+        siteUrl: `https://jackson-noah.com`,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://jackson-noda.com`,
-        sitemap: `https://jackson-noda.com/sitemap.xml`,
+        host: `https://jackson-noah.com`,
+        sitemap: `https://jackson-noah.com/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jackson Noda`,
+        name: `Jackson Noah`,
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#FFFFFF`,

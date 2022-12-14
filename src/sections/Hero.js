@@ -133,13 +133,13 @@ const Hero = () => {
         </div>
         <div className="col-span-3 text-center lg:text-left">
           <GatsbyImage
-            alt="Jackson Noda"
+            alt="Jackson Noah"
             className="max-w-lg max-h-32 mx-auto lg:mx-0"
             image={data.logo.childImageSharp.gatsbyImageData}
           />
 
           <h1 className="sr-only">
-            Jackson Noda&apos;s Portfolio <br />
+            Jackson Noah&apos;s Portfolio <br />
             Full Stack Engineer from FL, USA
           </h1>
 

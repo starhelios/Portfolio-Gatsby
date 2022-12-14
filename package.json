@@ -2,7 +2,7 @@
   "name": "portfolio-gatsby",
   "description": "Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my portfolio!",
   "version": "1.0.0",
-  "author": "Jackson Noda",
+  "author": "Jackson Noah",
   "dependencies": {
     "@formspark/use-formspark": "^0.1.32",
     "@material-ui/core": "^4.11.4",
