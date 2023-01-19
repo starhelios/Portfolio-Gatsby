@@ -1,8 +1,8 @@
 ### Badges of Honor
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/amruthpillai.com.svg)](https://jackson-noda.com/)
-[![Uptime Robot](https://img.shields.io/uptimerobot/ratio/m781987043-24c5463b2c0e80a630682bd0.svg?style=flat)](https://jackson-noda.com/)
-[![Last Commit](https://img.shields.io/github/last-commit/amruthpillai/resumeontheweb-angular.svg?style=flat)](https://jackson-noda.com/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/amruthpillai.com.svg)](https://jackson-noda.info/)
+[![Uptime Robot](https://img.shields.io/uptimerobot/ratio/m781987043-24c5463b2c0e80a630682bd0.svg?style=flat)](https://jackson-noda.info/)
+[![Last Commit](https://img.shields.io/github/last-commit/amruthpillai/resumeontheweb-angular.svg?style=flat)](https://jackson-noda.info/)
 ![Code Size](https://img.shields.io/github/languages/code-size/amruthpillai/resumeontheweb-gatsby.svg?style=flat)
 ![MIT License](https://img.shields.io/github/license/amruthpillai/resumeontheweb-gatsby.svg?style=flat)
 
@@ -21,7 +21,7 @@ The website features a variety of tidbits from across the web, from how the serv
 
 To check out the live version of the site in all of it's glory, head over to:
 
-### https://www.jackson-noda.com/
+### https://www.jackson-noda.info/
 
 ## About the Project
 

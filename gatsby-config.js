@@ -5,22 +5,22 @@ module.exports = {
     title: `Jackson Noda`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my portfolio!`,
     author: `Jackson Noda`,
-    siteUrl: `https://jackson-noda.com`,
+    siteUrl: `https://jackson-noda.info`,
   },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://jackson-noda.com`,
+        siteUrl: `https://jackson-noda.info`,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://jackson-noda.com`,
-        sitemap: `https://jackson-noda.com/sitemap.xml`,
+        host: `https://jackson-noda.info`,
+        sitemap: `https://jackson-noda.info/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },

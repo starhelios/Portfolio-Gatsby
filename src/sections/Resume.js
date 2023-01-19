@@ -24,7 +24,7 @@ const Resume = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">
           <OutboundLink
-            href="https://drive.google.com/file/d/147UPGhfmpGHJvFXa7_x_2-hkukhS1Tdp/view?usp=sharing"
+            href="https://drive.google.com/file/d/181uQlAZLg9EPkl-k6yujZ_zvA9Bll3t7/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-64 md:h-48 lg:h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
