@@ -1,8 +1,16 @@
 [
   {
+    "icon": "../images/work/upwork.png",
+    "title": "UPWORK",
+    "subtitle": "Senior Full Stack Engineer",
+    "period": "Apr 2022 - Jan 2023",
+    "location": "Florida, US (Remote)",
+    "specialization": "React, React Native, Flutter, NextJS, GatsbyJS, TailwindCSS, Storybook, Typescript, Web3, Node, Express, Ruby on Rails, Jest, Selenium, Cypress, RSpec, Docker, Vercel, Heroku, AWS"
+  },
+  {
     "icon": "../images/work/icotop.png",
     "title": "ICOTOP",
-    "subtitle": "Full Stack Engineer",
+    "subtitle": "Senior Full Stack Engineer",
     "period": "Jun 2019 - Mar 2021",
     "location": "Florida, US (Remote)",
     "specialization": "React, Typescript, Web3, Node, Express, Docker, AWS"
@@ -10,7 +18,7 @@
   {
     "icon": "../images/work/fanhero.png",
     "title": "FanHero",
-    "subtitle": "Front End Developer",
+    "subtitle": "Senior Front End Developer",
     "period": "Feb 2018 - Apr 2019",
     "location": "Florida, US (Remote)",
     "specialization": "React, Material UI, Typescript, Jest, Enzyme, Cypress, Agile Product Development"
@@ -18,7 +26,7 @@
   {
     "icon": "../images/work/openarc.png",
     "title": "OpenArc, LLC.",
-    "subtitle": "Mobile Application Developer",
+    "subtitle": "Senior Mobile Application Developer",
     "period": "Nov 2016 - Jan 2018",
     "location": "Florida, US (Remote)",
     "specialization": "React Native, Flutter, Swift, Objective-C, Java, Kotlin"
@@ -34,7 +42,7 @@
   {
     "icon": "../images/work/sunshine.png",
     "title": "Sunshine Homes LLC.",
-    "subtitle": "General Contractor",
+    "subtitle": "Software Intern",
     "period": "Sep 2013 - Jun 2015",
     "location": "Florida, US (Remote)",
     "specialization": "Ruby, Rails, PostgreSQL, RSpec, Docker, Heroku"
