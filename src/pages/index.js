@@ -4,6 +4,7 @@ import Footer from "../sections/Footer";
 import Wrapper from "../components/Wrapper";
 import AboutMe from "../sections/AboutMe";
 import Contact from "../sections/Contact";
+import Certificate from "../sections/Certificate";
 import Education from "../sections/Education";
 import Hero from "../sections/Hero";
 import Languages from "../sections/Languages";
@@ -23,6 +24,7 @@ const IndexPage = () => {
           <Education />
         </div>
         <Skills />
+        <Certificate />
         <Projects />
         <Languages />
         <Resume />

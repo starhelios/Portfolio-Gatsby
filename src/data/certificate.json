@@ -1,0 +1,27 @@
+[
+  {
+    "image": "../images/certificate/triplebyte.png",
+    "title": "Triplebyte Certificate",
+    "website": "https://triplebyte.com/tb/jackson-noda-5s9umpr/certificate"
+  },
+  {
+    "image": "../images/certificate/legacy-frontend.png",
+    "title": "Legacy Front End Certificate",
+    "website": "https://www.freecodecamp.org/certification/fcc633a2269-a91c-422d-bb50-7f531594e606/legacy-front-end"
+  },
+  {
+    "image": "../images/certificate/frontend.png",
+    "title": "Front End Development Libraries Certificate",
+    "website": "https://www.freecodecamp.org/certification/fcc633a2269-a91c-422d-bb50-7f531594e606/front-end-development-libraries"
+  },
+  {
+    "image": "../images/certificate/algorithm.png",
+    "title": "JavaScript Algorithms and Data Structures Certificate",
+    "website": "https://www.freecodecamp.org/certification/fcc633a2269-a91c-422d-bb50-7f531594e606/javascript-algorithms-and-data-structures"
+  },
+  {
+    "image": "../images/certificate/responsive.png",
+    "title": "Responsive Web Design",
+    "website": "https://www.freecodecamp.org/certification/fcc633a2269-a91c-422d-bb50-7f531594e606/responsive-web-design"
+  }
+]
