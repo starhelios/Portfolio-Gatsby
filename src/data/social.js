@@ -7,7 +7,7 @@ const social = [
    {
     title: "LinkedIn",
     icon: FaLinkedinIn,
-    link: "https://www.linkedin.com/in/jackson-holbrook-noah-33a5b71b0/",
+    link: "https://www.linkedin.com/in/jackson-noah-33a5b71b0/",
     class: "bg-linkedin",
   },
   {
