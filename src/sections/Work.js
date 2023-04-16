@@ -8,7 +8,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 const Work = () => {
   const { dark } = useContext(ThemeContext);
-  const [max, setMax] = useState(4);
+  const [max, setMax] = useState(6);
   const data = useStaticQuery(graphql`
     {
       allWorkJson {

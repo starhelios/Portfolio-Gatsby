@@ -15,7 +15,7 @@ const Social = () => {
             key={x.title}
             target="_blank"
             rel="noopener noreferrer"
-            className={`${x.class} animated fadeIn`}
+            className={`${x.class} mr-5 ml-5 animated fadeIn`}
             style={{ width: 40, height: 40, animationDelay: `${i * 0.25 + 0.25}s` }}
           >
             <Icon color="#FFF" size="1.3em" />

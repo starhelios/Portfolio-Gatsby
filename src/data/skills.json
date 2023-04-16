@@ -5,16 +5,6 @@
     "tech": "HTML/CSS/Javascript"
   },
   {
-    "icon": "../images/skills/android.png",
-    "name": "Android App Development",
-    "tech": "Android Studio/Java/Kotlin/XML"
-  },
-  {
-    "icon": "../images/skills/ios.png",
-    "name": "iOS App Development",
-    "tech": "Xcode/Swift/Objective-C"
-  },
-  {
     "icon": "../images/skills/react.png",
     "name": "Frontend Development",
     "tech": "React/Redux/Material UI"
@@ -55,9 +45,14 @@
     "tech": "Docker"
   },
   {
-    "icon": "../images/skills/database.png",
-    "name": "Database Management System",
-    "tech": "MySQL/Postgres/MongoDB"
+    "icon": "../images/skills/android.png",
+    "name": "Android App Development",
+    "tech": "Android Studio/Java/Kotlin/XML"
+  },
+  {
+    "icon": "../images/skills/ios.png",
+    "name": "iOS App Development",
+    "tech": "Xcode/Swift/Objective-C"
   },
   {
     "icon": "../images/skills/react.png",
@@ -68,6 +63,11 @@
     "icon": "../images/skills/flutter.png",
     "name": "Cross Platform App Development",
     "tech": "Dart/Flutter"
+  },
+  {
+    "icon": "../images/skills/database.png",
+    "name": "Database Management System",
+    "tech": "MySQL/Postgres/MongoDB"
   },
   {
     "icon": "../images/skills/tensorflow.png",

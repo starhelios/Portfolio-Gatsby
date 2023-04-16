@@ -1,5 +1,5 @@
 .container {
-  @apply flex justify-between;
+  @apply flex justify-center;
 }
 
 .container > a {
