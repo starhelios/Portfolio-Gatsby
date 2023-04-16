@@ -4,8 +4,7 @@
 
 .project {
   min-width: 280px;
-  max-width: 280px;
-  @apply mr-10 rounded-lg flex flex-col;
+  @apply rounded-lg flex flex-col;
 }
 
 @screen md {

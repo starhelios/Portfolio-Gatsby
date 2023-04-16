@@ -1,12 +1,14 @@
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { OutboundLink } from "gatsby-plugin-google-analytics";
-import React from "react";
+import React, { useContext } from "react";
 import Heading from "../components/Heading";
+import ThemeContext from "../context/ThemeContext";
 import { FaDev, FaLink } from "../components/Icons";
-import * as styles from "./Projects.module.css";
 
 const Projects = () => {
+  const { dark } = useContext(ThemeContext);
+
   const data = useStaticQuery(graphql`
     {
       allProjectsJson {
@@ -19,7 +21,7 @@ const Projects = () => {
             website
             image {
               childImageSharp {
-                gatsbyImageData(width: 400, layout: CONSTRAINED)
+                gatsbyImageData(width: 1200, layout: CONSTRAINED)
               }
             }
           }
@@ -32,41 +34,45 @@ const Projects = () => {
     <section id="projects">
       <Heading icon={FaDev} title="Projects" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-2 gap-10">
+      <div className="">
         {data.allProjectsJson.edges.map(({ node }, index) => (
           <div
             key={node.id}
-            className={`${styles.project} wow fadeIn`}
+            className="wow fadeIn w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-20"
             style={{
-              animationDelay: `${index * 150 + 150}ms`,
+              animationDelay: `${index * 100 + 100}ms`,
             }}
           >
             <OutboundLink
               href={node.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
+              className="w-full max-w-screen-sm h-96 bg-black relative cursor-pointer rounded-lg shadow-lg relative"
             >
-              <FaLink className="absolute" color="#FFF" size="5rem" />
+              <FaLink className="absolute left-1/2 top-1/2" color="#FFF" size="5rem" style={{transform: "translate(-50%, -50%)"}} />
               <GatsbyImage
-                className="absolute w-full h-full object-cover rounded-lg hover:opacity-50 duration-200"
+                className="w-full h-full rounded-lg hover:opacity-50 duration-200"
+                imgClassName="w-full"
                 alt={node.title}
                 image={node.image.childImageSharp.gatsbyImageData}
+                objectFit="fill"
               />
               <span className="sr-only">{node.title}</span>
             </OutboundLink>
-            <h5 className="mt-4 w-5/6 truncate font-semibold">
-              {node.title}
-            </h5>
-            <p className="mt-4 text-sm">{node.description}</p>
+            <div className="text-left">
+              <h5 className="lg:text-xl text-lg truncate font-semibold">
+                {node.title}
+              </h5>
+              <p className="mt-4 lg:text-lg text-md">{node.description}</p>
 
-            <p className="pb-0 flex text-xs font-semibold">
-              {node.tags.map(x => (
-                <span key={x} className="mr-2">
-                  #{x}
-                </span>
-              ))}
-            </p>
+              <p className="w-full pb-0 flex flex-wrap lg:text-md text-sm font-semibold">
+                {node.tags.map(x => (
+                  <span key={x} className={`${dark ? "bg-white text-black" : "bg-black text-white"} mr-2 mb-2 rounded-md pr-2 pl-2 pt-1 pb-1`}>
+                    {x}
+                  </span>
+                ))}
+              </p>
+            </div>
           </div>
         ))}
       </div>

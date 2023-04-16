@@ -41,7 +41,7 @@ const Education = () => {
                 key={node.id}
                 className="py-4 flex wow fadeInDown"
                 style={{
-                  animationDuration: `${index * 200 + 500}ms`,
+                  animationDuration: `${index * 100 + 100}ms`,
                 }}
               >
                 <Tooltip title={`(${node.period})`} placement="left">

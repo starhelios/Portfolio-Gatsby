@@ -1,58 +1,58 @@
 [
   {
     "image": "../images/projects/icotop.png",
-    "title": "ICOTOP | ICOTOP Rating Agency",
-    "description": "ICOTOP is an independent agency employing a team of blockchain experts specializing in making the rating for ICO projects.",
-    "tags": ["webdev", "fullstack", "react", "web3", "node", "docker"],
+    "title": "Senior Full Stack Engineer | ICOTOP",
+    "description": "I have employed cutting-edge technologies like React for creating interactive and responsive UI components, Next.js for server-rendering and static site generation to improve performance, and Python, and Flask for a robust and scalable backend. Additionally, I have utilized PostgreSQL for secure and efficient database management, delivering a seamless and high-quality user experience across all platforms. This comprehensive tech stack has allowed me to build and maintain a dynamic and modern application for ICOTOP's diverse needs.",
+    "tags": ["React.js", "Redux", "Typescript", "Web3.js", "Next.js", "SCSS", "Node.js", "Python", "Flask", "PyTest", "Docker", "AWS"],
     "website": "https://icotop.io/"
   },
   {
     "image": "../images/projects/fanhero.png",
-    "title": "FANHERO",
-    "description": "FanHero is the developer of an all-in-one social-OTT platform that enables content creators including media companies, rightsholders, sports businesses, and other organizations to effectively distribute and monetize their content.",
-    "tags": ["react", "webdev", "materialui", "typescript", "jest", "enzyme"],
+    "title": "Senior Frontend Developer | FANHERO",
+    "description": "I have utilized cutting-edge technologies such as React for building highly responsive and interactive user interfaces, Material UI for implementing a consistent and visually appealing design system, and Node.js for developing a high-performance backend. By leveraging TypeScript for strong typing and enhanced code maintainability, along with Jest for robust testing and ensuring code quality, I have successfully delivered a top-notch, user-centric application that meets FanHero's unique requirements and consistently exceeds expectations.",
+    "tags": ["React.js", "Redux", "Gatsby.js", "Material UI", "Storybook", "Typescript", "GraphQL", "Node.js", "Jest", "Enzyme", "Netlify"],
     "website": "https://fanhero.com/"
   },
   {
     "image": "../images/projects/openarc.png",
-    "title": "OpenArc, LLC.",
-    "description": "OpenArc is a technology consulting firm providing industry-leading technical talent placement, software development, and technology strategy services to clients nationwide.",
-    "tags": ["flutter", "firebase", "reactnative", "swift", "objectivec", "java", "kotlin"],
+    "title": "Senior Mobile Application Developer | OpenArc, LLC.",
+    "description": "I have gained extensive experience working with cross-platform technologies such as React Native and Flutter, using TypeScript and Dart for strong typing and improved code maintainability. With Xcode and Android Studio, I have successfully built and deployed native applications for both iOS and Android platforms. Utilizing IntelliJ as a comprehensive IDE, I have efficiently managed codebases and streamlined the development process. Moreover, I have integrated Firebase for robust backend services and effectively incorporated third-party APIs to enhance the application's functionality, resulting in high-quality, versatile solutions tailored to clients' diverse needs.",
+    "tags": ["iOS & Android App Development and Distribution", "React Native", "Flutter", "Typescript", "Dart", "Xcode", "Android Studio", "IntelliJ", "Stripe", "Plaid", "Sendgrid", "MailChimp", "Twilio", "Firebase"],
     "website": "https://www.openarc.net/"
   },
   {
     "image": "../images/projects/101-management.png",
-    "title": "101 Management Inc.",
-    "description": "Internet Marketing, Social Media Management, Search Engine Optimization Services, Website Design & Development.",
-    "tags": ["webdev", "social", "mern", "mocha", "chai"],
+    "title": "Full Stack Lead Developer | 101 Management Inc.",
+    "description": "I have worked with an extensive range of cutting-edge technologies, employing React and Redux for building responsive and state-managed UI components, and Node.js with Express for robust backend services. I have also leveraged Python-based frameworks, such as Django and Flask, to create versatile web applications. To ensure code quality, I have utilized testing frameworks like Jest, Mocha, and Chai, while handling data storage with MongoDB, PostgreSQL, and Redis to cater to diverse database requirements. Finally, my expertise in AWS has enabled me to deploy and manage scalable, high-performance applications, delivering comprehensive and seamless solutions for the several clients' needs.",
+    "tags": ["MERN Stack", "MEVN Stack", "TailwindCSS", "Material UI", "Chakra UI", "Storybook", "Typescript", "Python", "Django", "Flask", "Jest", "Mocha", "Chai", "PyTest", "MongoDB", "PostgreSQL", "Redis", "Heroku", "AWS"],
     "website": "https://101management.net/"
   },
   {
     "image": "../images/projects/festfoods.png",
-    "title": "Festival Foods",
-    "description": "Every business decision we make is based on the question, “Will it bring the customer back?“",
-    "tags": ["vue", "vuefity", "vuex", "nuxt"],
+    "title": "Frontend Developer | Festival Foods",
+    "description": "I have leveraged advanced technologies such as Vue (v3) for crafting interactive and responsive user interfaces, along with Vuetify and TailwindCSS (v3) for implementing modern and visually appealing design systems. Utilizing Nuxt.js, I have optimized performance with server-rendered applications and streamlined the development process. By integrating GraphQL for efficient data querying and management, as well as Shopify for seamless e-commerce functionality, I have successfully delivered a top-tier, user-centric website that meets company's unique demands and consistently provides a superior shopping experience.",
+    "tags": ["Vue", "Vuefity", "Vuex", "Nuxt", "TailwindCSS", "GraphQL", "Shopify"],
     "website": "https://www.festfoods.com"
   },
   {
     "image": "../images/projects/sv-academy.png",
-    "title": "SVAcademy",
-    "description": "Our training and support will fast-track you into a customer-facing career in tech with one of our 400+ employer partners.",
-    "tags": ["react", "next", "typescript", "node", "express", "graphql", "vercel"],
+    "title": "Full Stack Developer | SVAcademy",
+    "description": "I have employed a diverse range of cutting-edge technologies, utilizing React.js for crafting interactive and responsive user interfaces and Next.js for enhancing performance with server-rendered applications. With TypeScript, I have ensured strong typing and improved code maintainability, while leveraging GraphQL for efficient data management and seamless API integrations. My experience with Node and Express has enabled the development of robust backend services, and by deploying the applications on Vercel, I have ensured high-performance and scalable solutions. Overall, my comprehensive skillset has contributed to the creation of a dynamic and engaging learning platform for users.",
+    "tags": ["React.js", "Next.js", "Typescript", "GraphQL", "Contentful", "Node.js", "Express.js", "Vercel"],
     "website": "https://sv.academy/apply"
   },
   {
     "image": "../images/projects/satoshi.png",
-    "title": "NFT Art Trading",
-    "description": "All the NFT in the world, now together. Here for you.",
-    "tags": ["react", "typescript", "materialui", "nft", "ruby", "postgresql", "docker"],
+    "title": "Full Stack Developer | NFT Art Trading",
+    "description": "I have employed a wide range of state-of-the-art technologies, utilizing React.js and Next.js for building interactive, responsive user interfaces and enhanced performance through server-rendered applications. By integrating Web3.js, I have enabled seamless blockchain interactions, while leveraging TypeScript for strong typing and superior code maintainability. My expertise in Chakra UI and TailwindCSS has allowed for the implementation of modern, visually appealing designs. Furthermore, I have used Ruby on Rails for robust backend development, and deployed applications using containerization with Docker and cloud platforms such as Heroku and AWS, ensuring high-performance, scalable solutions that cater to company's unique needs within the digital art space.",
+    "tags": ["React.js", "Next.js", "Web3.js", "Storybook", "Typescript", "Chakra UI", "TailwindCSS", "Ruby on Rails", "RSpec", "PostgreSQL", "Docker", "Heroku", "AWS"],
     "website": "https://www.satoshi.art"
   },
   {
     "image": "../images/projects/ewellness.png",
-    "title": "Magazine For Wellness",
-    "description": "Wellness NEWs",
-    "tags": ["haml", "ruby", "jquery", "wellness", "rails", "postgresql", "nginx"],
+    "title": "Full Stack Developer | Magazine For Wellness",
+    "description": "I have employed a variety of mature and reliable technologies, using HAML for clean and maintainable markup, and Ruby for efficient and expressive backend development. By leveraging Ruby on Rails as a full-stack framework, I have rapidly developed feature-rich web applications, while integrating jQuery for enhanced front-end interactivity. For robust data management, I have utilized PostgreSQL as the primary database solution, and deployed the application using Nginx as a high-performance web server. Overall, my development expertise has contributed to the creation of a user-friendly and informative platform that caters to the unique needs of company's audience.",
+    "tags": ["Ruby", "Ruby on Rails", "HAML", "jQuery", "PostgreSQL", "Nginx"],
     "website": "https://www.ewellnessmag.com"
   }
 ]

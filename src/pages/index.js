@@ -7,7 +7,6 @@ import Contact from "../sections/Contact";
 import Certificate from "../sections/Certificate";
 import Education from "../sections/Education";
 import Hero from "../sections/Hero";
-import Languages from "../sections/Languages";
 import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
@@ -26,7 +25,6 @@ const IndexPage = () => {
         <Skills />
         <Certificate />
         <Projects />
-        <Languages />
         <Resume />
         <Contact />
         <Footer />

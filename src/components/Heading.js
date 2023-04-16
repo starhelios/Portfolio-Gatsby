@@ -5,9 +5,9 @@ const Heading = ({ icon, title }) => {
   const Icon = icon;
 
   return (
-    <div className="heading flex items-center pb-8">
-      <Icon size="0.875rem" className="mr-2" />
-      <h6 className="font-bold uppercase text-sm leading-none">{title}</h6>
+    <div className="heading flex items-center pb-8 mb-5">
+      <Icon size="2.0rem" className="mr-5 text-green-400" />
+      <h6 className="font-bold uppercase text-xl text-green-400 leading-none">{title}</h6>
     </div>
   );
 };

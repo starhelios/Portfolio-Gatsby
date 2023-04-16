@@ -36,14 +36,14 @@ const Certificate = () => {
             key={node.id}
             className={`${styles.project} wow fadeIn`}
             style={{
-              animationDelay: `${index * 150 + 150}ms`,
+              animationDelay: `${index * 100 + 100}ms`,
             }}
           >
             <OutboundLink
               href={node.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
+              className="w-full md:h-48 h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg mb-8"
             >
               <FaLink className="absolute" color="#FFF" size="5rem" />
               <GatsbyImage
@@ -53,9 +53,6 @@ const Certificate = () => {
               />
               <span className="sr-only">{node.title}</span>
             </OutboundLink>
-            <h5 className="mt-4 w-5/6 truncate font-semibold">
-              {node.title}
-            </h5>
           </div>
         ))}
       </div>

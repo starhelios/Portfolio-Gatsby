@@ -34,7 +34,7 @@ const Skills = () => {
             key={node.id}
             className={`${styles.skill} md:mr-5 wow fadeIn`}
             style={{
-              animationDelay: `${index * 100 + 100}ms`,
+              animationDelay: `${index * 70 + 70}ms`,
             }}
           >
             <div className="flex items-center">

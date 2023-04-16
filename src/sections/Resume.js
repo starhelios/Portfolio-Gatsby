@@ -21,8 +21,8 @@ const Resume = () => {
     <section id="resume">
       <Heading icon={IoIosDocument} title="Resume" />
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
-        <div className="col-span-1 md:col-span-2">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-6 md:gap-8 items-center">
+        <div className="col-span-1 md:col-span-3">
           <OutboundLink
             href="https://drive.google.com/file/d/1cxxRNNLelpDCkYiuO91LaCb7VD_1X32C/view?usp=sharing"
             target="_blank"

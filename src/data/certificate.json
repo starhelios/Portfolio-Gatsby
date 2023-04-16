@@ -1,5 +1,10 @@
 [
   {
+    "image": "../images/certificate/react.png",
+    "title": "React Certificate",
+    "website": "https://www.linkedin.com/learning/certificates/0cd39a552b4b1f671fdc4b996c5fec63ae1d5818af68d591e175f52ff37b8ca0"
+  },
+  {
     "image": "../images/certificate/triplebyte.png",
     "title": "Triplebyte Certificate",
     "website": "https://triplebyte.com/tb/jackson-noda-5s9umpr/certificate"

@@ -23,10 +23,10 @@ const AboutMe = () => {
       <Heading icon={MdPerson} title="About Me" />
 
       <div className="grid lg:grid-cols-6 gap-12 items-center">
-        <div className="hidden md:block lg:col-span-2 w-1/3 lg:w-3/4 mx-auto wow fadeInLeft">
+        <div className="block lg:col-span-2 w-full md:w-1/3 lg:w-3/4 mx-auto wow fadeInLeft">
           <GatsbyImage
             image={data.photo.childImageSharp.gatsbyImageData}
-            alt="Smiling Cartoon Boy with Phone and Backpack"
+            alt="Senior Software Engineer"
           />
         </div>
         <div
