@@ -30,7 +30,7 @@ const Certificate = () => {
     <section id="certificate">
       <Heading icon={FaCertificate} title="certificate" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 grid-rows-2 gap-10">
         {data.allCertificateJson.edges.map(({ node }, index) => (
           <div
             key={node.id}
