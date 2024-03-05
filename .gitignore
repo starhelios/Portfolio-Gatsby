@@ -1,13 +1,11 @@
-# Project Dependencies
+# Project dependencies
 .cache
 node_modules
 yarn-error.log
+package-lock.json
 
-# Build Directory
+# Build directory
 /public
-
-# macOS Artificats
 .DS_Store
 
-# Deployment-specific Configs
-.env
+.vscode/

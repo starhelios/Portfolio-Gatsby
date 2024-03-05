@@ -1,30 +1,65 @@
-import { OutboundLink } from "gatsby-plugin-google-analytics";
-import React from "react";
-import social from "../data/social";
-import * as styles from "./Social.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { socialMedia } from '@config';
+import { Side } from '@components';
+import { Icon } from '@components/icons';
 
-const Social = () => {
-  return (
-    <div className={styles.container}>
-      {social.map((x, i) => {
-        const Icon = x.icon;
+const StyledSocialList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
-        return (
-          <OutboundLink
-            href={x.link}
-            key={x.title}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`${x.class} mr-5 ml-5 animated fadeIn`}
-            style={{ width: 40, height: 40, animationDelay: `${i * 0.25 + 0.25}s` }}
-          >
-            <Icon color="#FFF" size="1.3em" />
-            <span className="sr-only">{x.title}</span>
-          </OutboundLink>
-        );
-      })}
-    </div>
-  );
+  &:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: var(--light-slate);
+  }
+
+  li {
+    padding: 10px;
+
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+
+    a {
+      &:hover,
+      &:focus {
+        transform: translateY(-3px);
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+`;
+
+const Social = ({ isHome }) => (
+  <Side isHome={isHome} orientation="left">
+    <StyledSocialList>
+      {socialMedia &&
+        socialMedia.map(({ url, name }, i) => (
+          <li key={i}>
+            <a href={url} aria-label={name}>
+              <Icon name={name} />
+            </a>
+          </li>
+        ))}
+    </StyledSocialList>
+  </Side>
+);
+
+Social.propTypes = {
+  isHome: PropTypes.bool,
 };
 
 export default Social;

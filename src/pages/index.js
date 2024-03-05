@@ -1,36 +1,26 @@
-import React from "react";
-import * as styles from "./index.module.css";
-import Footer from "../sections/Footer";
-import Wrapper from "../components/Wrapper";
-import AboutMe from "../sections/AboutMe";
-import Contact from "../sections/Contact";
-import Certificate from "../sections/Certificate";
-import Education from "../sections/Education";
-import Hero from "../sections/Hero";
-import Projects from "../sections/Projects";
-import Resume from "../sections/Resume";
-import Skills from "../sections/Skills";
-import Work from "../sections/Work";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { Layout, Hero, About, Jobs, Featured, Contact } from '@components';
 
-const IndexPage = () => {
-  return (
-    <Wrapper>
-      <div className={`container ${styles.layout}`}>
-        <Hero />
-        <AboutMe />
-        <div className={styles.workEducation}>
-          <Work />
-          <Education />
-        </div>
-        <Skills />
-        <Certificate />
-        <Projects />
-        <Resume />
-        <Contact />
-        <Footer />
-      </div>
-    </Wrapper>
-  );
+const StyledMainContainer = styled.main`
+  counter-reset: section;
+`;
+
+const IndexPage = ({ location }) => (
+  <Layout location={location}>
+    <StyledMainContainer className="fillHeight">
+      <Hero />
+      <About />
+      <Jobs />
+      <Featured />
+      <Contact />
+    </StyledMainContainer>
+  </Layout>
+);
+
+IndexPage.propTypes = {
+  location: PropTypes.object.isRequired,
 };
 
 export default IndexPage;

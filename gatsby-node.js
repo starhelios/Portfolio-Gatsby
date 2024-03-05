@@ -1,55 +1,103 @@
-const { createRemoteFileNode } = require("gatsby-source-filesystem");
+/**
+ * Implement Gatsby's Node APIs in this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/node-apis/
+ */
 
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions;
+const path = require('path');
+const _ = require('lodash');
 
-  createTypes(`
-    type DevArticles implements Node {
-      id: ID!
-      article: Article
-      featuredImg: File @link(from: "featuredImg___NODE")
-    }
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions;
+  const postTemplate = path.resolve(`src/templates/post.js`);
+  const tagTemplate = path.resolve('src/templates/tag.js');
 
-    type Article {
-      url: String
-      title: String
-      tags: [String]
-      description: String
-      cover_image: String
-      social_image: String
-      published_at(
-        difference: String
-        formatString: String
-        fromNow: Boolean
-        locale: String
-      ): Date
-      positive_reactions_count: Int
+  const result = await graphql(`
+    {
+      postsRemark: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/posts/" } }
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            frontmatter {
+              slug
+            }
+          }
+        }
+      }
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
     }
   `);
+
+  // Handle errors
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
+
+  // Create post detail pages
+  const posts = result.data.postsRemark.edges;
+
+  posts.forEach(({ node }) => {
+    createPage({
+      path: node.frontmatter.slug,
+      component: postTemplate,
+      context: {},
+    });
+  });
+
+  // Extract tag data from query
+  const tags = result.data.tagsGroup.group;
+  // Make tag pages
+  tags.forEach(tag => {
+    createPage({
+      path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
+      component: tagTemplate,
+      context: {
+        tag: tag.fieldValue,
+      },
+    });
+  });
 };
 
-exports.onCreateNode = async ({
-  node,
-  actions: { createNode },
-  store,
-  cache,
-  createNodeId,
-}) => {
-  if (
-    node.internal.type === "DevArticles" &&
-    (node.article.cover_image !== null || node.article.social_image !== null)
-  ) {
-    let fileNode = await createRemoteFileNode({
-      url: node.article.cover_image || node.article.social_image,
-      parentNodeId: node.id,
-      createNode,
-      createNodeId,
-      cache,
-      store,
+// https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
+  if (stage === 'build-html') {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /scrollreveal/,
+            use: loaders.null(),
+          },
+          {
+            test: /animejs/,
+            use: loaders.null(),
+          },
+        ],
+      },
     });
-
-    if (fileNode) {
-      node.featuredImg___NODE = fileNode.id;
-    }
   }
+
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        '@components': path.resolve(__dirname, 'src/components'),
+        '@config': path.resolve(__dirname, 'src/config'),
+        '@fonts': path.resolve(__dirname, 'src/fonts'),
+        '@hooks': path.resolve(__dirname, 'src/hooks'),
+        '@images': path.resolve(__dirname, 'src/images'),
+        '@pages': path.resolve(__dirname, 'src/pages'),
+        '@styles': path.resolve(__dirname, 'src/styles'),
+        '@utils': path.resolve(__dirname, 'src/utils'),
+      },
+    },
+  });
 };
