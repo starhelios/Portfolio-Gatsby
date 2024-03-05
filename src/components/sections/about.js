@@ -173,7 +173,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am a Senior Full Stack Developer with over 10 years experience developing dynamic
+              I am a Senior Full Stack Developer with over 20 years experience developing dynamic
               and innovative web & mobile applications with best practices and design patterns,
               scalable and configured applications responsive design, cross-browser and cross device
               website and applications.
