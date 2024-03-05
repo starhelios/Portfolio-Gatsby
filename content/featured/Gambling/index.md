@@ -9,7 +9,7 @@ tech:
   - Typescript
   - RxJS
   - SockJS
-  - Bootstrap  
+  - Bootstrap
   - HTML
   - CSS
 showInProjects: true

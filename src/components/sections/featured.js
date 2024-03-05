@@ -300,7 +300,7 @@ const Featured = () => {
                     </ul>
                   )}
 
-                  <div className="project-links">                    
+                  <div className="project-links">
                     {external && (
                       <a href={external} aria-label="External Link">
                         <Icon name="External" />

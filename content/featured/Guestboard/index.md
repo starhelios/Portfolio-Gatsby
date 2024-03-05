@@ -9,7 +9,7 @@ tech:
   - Javascript
   - Bootstrap
   - Laravel
-  - MySQL  
+  - MySQL
   - HTML
   - CSS
 showInProjects: true

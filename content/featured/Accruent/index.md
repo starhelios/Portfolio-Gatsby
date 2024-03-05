@@ -8,7 +8,7 @@ tech:
   - React
   - Gatsby
   - Javascript
-  - Bulma CSS  
+  - Bulma CSS
   - HTML
   - CSS
   - Framer Motion

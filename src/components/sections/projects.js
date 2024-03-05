@@ -1,8 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from 'react';
 import styled from 'styled-components';
-import { srConfig } from '@config';
-import sr from '@utils/sr';
 
 const StyledProjectsSection = styled.section`
   display: flex;
@@ -39,36 +36,6 @@ const StyledProjectsSection = styled.section`
   }
 `;
 
-const Projects = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      projects: allMarkdownRemark(
-        filter: {
-          fileAbsolutePath: { regex: "/projects/" }
-          frontmatter: { showInProjects: { ne: false } }
-        }
-        sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title
-              tech
-              github
-              external
-            }
-            html
-          }
-        }
-      }
-    }
-  `);
-
-
-  return (
-    <StyledProjectsSection>
-    </StyledProjectsSection>
-  );
-};
+const Projects = () => <StyledProjectsSection></StyledProjectsSection>;
 
 export default Projects;
